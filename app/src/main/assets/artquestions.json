@@ -1,0 +1,84 @@
+{
+  "artquestions": [
+    {
+      "question": "Vincent van Gogh hangi ülkenin ressamıdır?",
+      "answer1": "A) İtalya",
+      "answer2": "B) Hollanda",
+      "answer3": "C) Fransa",
+      "answer4": "D) İspanya",
+      "correct": "B) Hollanda"
+    },
+    {
+      "question": "Pablo Picasso hangi sanat akımının önde gelen temsilcisidir?",
+      "answer1": "A) İzlenimcilik",
+      "answer2": "B) Kübizm",
+      "answer3": "C) Romantizm",
+      "answer4": "D) Sürrealizm",
+      "correct": "B) Kübizm"
+    },
+    {
+      "question": "Leonardo da Vinci'nin ünlü eseri Mona Lisa hangi müzede sergilenmektedir?",
+      "answer1": "A) Louvre Müzesi (Fransa)",
+      "answer2": "B) British Museum (İngiltere)",
+      "answer3": "C) Metropolitan Museum of Art (ABD)",
+      "answer4": "D) Prado Müzesi (İspanya)",
+      "correct": "A) Louvre Müzesi (Fransa)"
+    },
+    {
+      "question": "Michelangelo'nun ünlü heykeli David hangi şehirde bulunur?",
+      "answer1": "A) Roma",
+      "answer2": "B) Venedik",
+      "answer3": "C) Floransa",
+      "answer4": "D) Milano",
+      "correct": "C) Floransa"
+    },
+    {
+      "question": "Salvador Dalí hangi sanat akımının önemli bir temsilcisidir?",
+      "answer1": "A) Fütürizm",
+      "answer2": "B) Sürrealizm",
+      "answer3": "C) Dadaizm",
+      "answer4": "D) Ekspresyonizm",
+      "correct": "B) Sürrealizm"
+    },
+    {
+      "question": "Andy Warhol hangi sanat dalında ün kazanmıştır?",
+      "answer1": "A) Heykel",
+      "answer2": "B) Fotoğrafçılık",
+      "answer3": "C) Sinema",
+      "answer4": "D) Pop art",
+      "correct": "D) Pop art"
+    },
+    {
+      "question": "İznik çinileri hangi döneme aittir?",
+      "answer1": "A) Antik Yunan Dönemi",
+      "answer2": "B) Osmanlı Dönemi",
+      "answer3": "C) Selçuklu Dönemi",
+      "answer4": "D) Roma İmparatorluğu Dönemi",
+      "correct": "B) Osmanlı Dönemi"
+    },
+    {
+      "question": "Rembrandt hangi sanat dalında öne çıkmış bir sanatçıdır?",
+      "answer1": "A) Heykel",
+      "answer2": "B) Resim",
+      "answer3": "C) Tiyatro",
+      "answer4": "D) Müzik",
+      "correct": "B) Resim"
+    },
+    {
+      "question": "İslam sanatında geometrik desenlerin kullanılması hangi özelliği yansıtır?",
+      "answer1": "A) Doğa sevgisi",
+      "answer2": "B) Soyut düşünce",
+      "answer3": "C) İnsan figürlerine tapınma",
+      "answer4": "D) Dinî inançları",
+      "correct": "D) Dinî inançları"
+    },
+    {
+      "question": "Hangi ressam 'Kuşatılmış Kent' adlı eseriyle tanınır?",
+      "answer1": "A) Frida Kahlo",
+      "answer2": "B) Jackson Pollock",
+      "answer3": "C) Marc Chagall",
+      "answer4": "D) René Magritte",
+      "correct": "C) Marc Chagall"
+    }
+  ]
+}

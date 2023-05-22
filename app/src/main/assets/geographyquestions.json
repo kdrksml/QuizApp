@@ -1,0 +1,84 @@
+{
+  "geographyquestions": [
+    {
+      "question": "Dünyanın en büyük okyanusu hangisidir?",
+      "answer1": "A) Pasifik Okyanusu",
+      "answer2": "B) Hint Okyanusu",
+      "answer3": "C) Atlas Okyanusu",
+      "answer4": "D) Arktik Okyanusu",
+      "correct": "A) Pasifik Okyanusu"
+    },
+    {
+      "question": "Nil Nehri hangi kıtada yer almaktadır?",
+      "answer1": "A) Afrika",
+      "answer2": "B) Asya",
+      "answer3": "C) Avrupa",
+      "answer4": "D) Güney Amerika",
+      "correct": "A) Afrika"
+    },
+    {
+      "question": "Dünya'nın en yüksek dağı hangisidir?",
+      "answer1": "A) Everest",
+      "answer2": "B) K2",
+      "answer3": "C) Annapurna",
+      "answer4": "D) Aconcagua",
+      "correct": "A) Everest"
+    },
+    {
+      "question": "En büyük çöl hangisidir?",
+      "answer1": "A) Sahra Çölü",
+      "answer2": "B) Gobi Çölü",
+      "answer3": "C) Kalahari Çölü",
+      "answer4": "D) Atacama Çölü",
+      "correct": "A) Sahra Çölü"
+    },
+    {
+      "question": "Amazon Nehri hangi kıtada yer almaktadır?",
+      "answer1": "A) Güney Amerika",
+      "answer2": "B) Kuzey Amerika",
+      "answer3": "C) Asya",
+      "answer4": "D) Afrika",
+      "correct": "A) Güney Amerika"
+    },
+    {
+      "question": "Kızıldeniz hangi iki kıta arasında yer almaktadır?",
+      "answer1": "A) Asya ve Afrika",
+      "answer2": "B) Avrupa ve Asya",
+      "answer3": "C) Avustralya ve Asya",
+      "answer4": "D) Güney Amerika ve Kuzey Amerika",
+      "correct": "A) Asya ve Afrika"
+    },
+    {
+      "question": "Dünya'nın en büyük adası hangisidir?",
+      "answer1": "A) Grönland",
+      "answer2": "B) Yeni Gine",
+      "answer3": "C) Borneo",
+      "answer4": "D) Madagaskar",
+      "correct": "A) Grönland"
+    },
+    {
+      "question": "Dünya'nın en büyük gölü hangisidir?",
+      "answer1": "A) Hazar Denizi",
+      "answer2": "B) Büyük Okyanus",
+      "answer3": "C) Michigan Gölü",
+      "answer4": "D) Ölü Deniz",
+      "correct": "A) Hazar Denizi"
+    },
+    {
+      "question": "Kapadokya, hangi ülkede bulunur?",
+      "answer1": "A) Türkiye",
+      "answer2": "B) İtalya",
+      "answer3": "C) Yunanistan",
+      "answer4": "D) Mısır",
+      "correct": "A) Türkiye"
+    },
+    {
+      "question": "Dünyanın en büyük ikinci kıtası hangisidir?",
+      "answer1": "A) Afrika",
+      "answer2": "B) Asya",
+      "answer3": "C) Avrupa",
+      "answer4": "D) Güney Amerika",
+      "correct": "B) Asya"
+    }
+  ]
+}

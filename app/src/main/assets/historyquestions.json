@@ -1,0 +1,84 @@
+{
+  "historyquestions": [
+    {
+      "question": "Fransız İhtilali hangi yıllar arasında gerçekleşmiştir?",
+      "answer1": "A) 1789-1799",
+      "answer2": "B) 1914-1918",
+      "answer3": "C) 1492-1504",
+      "answer4": "D) 476-1453",
+      "correct": "A) 1789-1799"
+    },
+    {
+      "question": "İkinci Dünya Savaşı hangi yıllar arasında gerçekleşmiştir?",
+      "answer1": "A) 1939-1945",
+      "answer2": "B) 1917-1918",
+      "answer3": "C) 1945-1991",
+      "answer4": "D) 1914-1918",
+      "correct": "A) 1939-1945"
+    },
+    {
+      "question": "Osmanlı İmparatorluğu'nun son döneminde hangi savaşlar gerçekleşmiştir?",
+      "answer1": "A) Balkan Savaşları",
+      "answer2": "B) Kırım Savaşı",
+      "answer3": "C) Yedi Yıl Savaşları",
+      "answer4": "D) Amerikan Bağımsızlık Savaşı",
+      "correct": "A) Balkan Savaşları"
+    },
+    {
+      "question": "İlk çağlarda Mısır'da hüküm süren yöneticilere ne ad verilirdi?",
+      "answer1": "A) Firavun",
+      "answer2": "B) Kral",
+      "answer3": "C) İmparator",
+      "answer4": "D) Sultan",
+      "correct": "A) Firavun"
+    },
+    {
+      "question": "İlk Çağ'da Atina şehrinde demokrasi nasıl uygulanmıştır?",
+      "answer1": "A) Halk meclisi tarafından",
+      "answer2": "B) Kral tarafından",
+      "answer3": "C) Rüzgarın yönüne göre",
+      "answer4": "D) Orak ve çekiçle",
+      "correct": "A) Halk meclisi tarafından"
+    },
+    {
+      "question": "Hangi olay, Amerika Birleşik Devletleri'nin bağımsızlığını ilan etmesine yol açmıştır?",
+      "answer1": "A) Amerikan İç Savaşı",
+      "answer2": "B) Bağımsızlık Savaşı",
+      "answer3": "C) Vietnam Savaşı",
+      "answer4": "D) Kızılderili Savaşları",
+      "correct": "B) Bağımsızlık Savaşı"
+    },
+    {
+      "question": "Fransız Devrimi'nin başlangıcını işaret eden olay hangisidir?",
+      "answer1": "A) Tenis Kortu Yemini",
+      "answer2": "B) Bastille Günü",
+      "answer3": "C) Versay Sarayı Kuşatması",
+      "answer4": "D) Jacobinlerin İktidarı",
+      "correct": "B) Bastille Günü"
+    },
+    {
+      "question": "Hangi tarih, Berlin Duvarı'nın yıkıldığı gün olarak kabul edilir?",
+      "answer1": "A) 9 Kasım 1989",
+      "answer2": "B) 20 Temmuz 1969",
+      "answer3": "C) 6 Haziran 1944",
+      "answer4": "D) 28 Haziran 1919",
+      "correct": "A) 9 Kasım 1989"
+    },
+    {
+      "question": "Hangi ülke, 1066 yılında İngiltere'yi istila ederek Norman hakimiyetini başlatmıştır?",
+      "answer1": "A) Fransa",
+      "answer2": "B) İskoçya",
+      "answer3": "C) Almanya",
+      "answer4": "D) İspanya",
+      "correct": "A) Fransa"
+    },
+    {
+      "question": "İspanyol İmparatorluğu'nun çöküş dönemi hangi yıllar arasında yaşanmıştır?",
+      "answer1": "A) 1808-1814",
+      "answer2": "B) 1492-1504",
+      "answer3": "C) 1815-1848",
+      "answer4": "D) 1588-1604",
+      "correct": "A) 1808-1814"
+    }
+  ]
+}

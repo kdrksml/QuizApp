@@ -1,0 +1,84 @@
+{
+  "moviequestions": [
+    {
+      "question": "Francis Ford Coppola'nın ünlü filmi hangisidir?",
+      "answer1": "A) The Godfather (Baba)",
+      "answer2": "B) Pulp Fiction",
+      "answer3": "C) The Shawshank Redemption (Esaretin Bedeli)",
+      "answer4": "D) The Dark Knight (Kara Şövalye)",
+      "correct": "A) The Godfather (Baba)"
+    },
+    {
+      "question": "Quentin Tarantino'nun ünlü filmi hangisidir?",
+      "answer1": "A) Inception (Başlangıç)",
+      "answer2": "B) Fight Club (Dövüş Kulübü)",
+      "answer3": "C) Kill Bill",
+      "answer4": "D) The Matrix (Matrix)",
+      "correct": "C) Kill Bill"
+    },
+    {
+      "question": "Christopher Nolan'ın ünlü film serisi hangisidir?",
+      "answer1": "A) The Lord of the Rings (Yüzüklerin Efendisi)",
+      "answer2": "B) The Dark Knight Trilogy (Kara Şövalye Üçlemesi)",
+      "answer3": "C) The Harry Potter Series (Harry Potter Serisi)",
+      "answer4": "D) The Marvel Cinematic Universe (Marvel Sinematik Evreni)",
+      "correct": "B) The Dark Knight Trilogy (Kara Şövalye Üçlemesi)"
+    },
+    {
+      "question": "Stanley Kubrick'in ünlü filmi hangisidir?",
+      "answer1": "A) The Shining (Parlaklık)",
+      "answer2": "B) Titanic",
+      "answer3": "C) The Silence of the Lambs (Kuzuların Sessizliği)",
+      "answer4": "D) Avatar",
+      "correct": "A) The Shining (Parlaklık)"
+    },
+    {
+      "question": "Martin Scorsese'nin ünlü filmi hangisidir?",
+      "answer1": "A) The Godfather (Baba)",
+      "answer2": "B) The Departed (Görevimiz Tehlike)",
+      "answer3": "C) Pulp Fiction",
+      "answer4": "D) The Shawshank Redemption (Esaretin Bedeli)",
+      "correct": "B) The Departed (Görevimiz Tehlike)"
+    },
+    {
+      "question": "Steven Spielberg'in ünlü filmi hangisidir?",
+      "answer1": "A) Back to the Future (Geleceğe Dönüş)",
+      "answer2": "B) E.T. the Extra-Terrestrial (E.T. Uzaylı)",
+      "answer3": "C) Jurassic Park",
+      "answer4": "D) Star Wars",
+      "correct": "C) Jurassic Park"
+    },
+    {
+      "question": "Alfred Hitchcock'un ünlü filmi hangisidir?",
+      "answer1": "A) Psycho (Psiko)",
+      "answer2": "B) The Godfather (Baba)",
+      "answer3": "C) Titanic",
+      "answer4": "D) The Dark Knight (Kara Şövalye)",
+      "correct": "A) Psycho (Psiko)"
+    },
+    {
+      "question": "David Fincher'ın ünlü filmi hangisidir?",
+      "answer1": "A) Fight Club (Dövüş Kulübü)",
+      "answer2": "B) Inception (Başlangıç)",
+      "answer3": "C) The Silence of the Lambs (Kuzuların Sessizliği)",
+      "answer4": "D) The Matrix (Matrix)",
+      "correct": "A) Fight Club (Dövüş Kulübü)"
+    },
+    {
+      "question": "Sergio Leone'nin ünlü filmi hangisidir?",
+      "answer1": "A) The Lord of the Rings (Yüzüklerin Efendisi)",
+      "answer2": "B) Once Upon a Time in the West (Batıda Bir Zamanlar)",
+      "answer3": "C) The Harry Potter Series (Harry Potter Serisi)",
+      "answer4": "D) The Marvel Cinematic Universe (Marvel Sinematik Evreni)",
+      "correct": "B) Once Upon a Time in the West (Batıda Bir Zamanlar)"
+    },
+    {
+      "question": "Quentin Tarantino'nun hangi filmi 1994 yapımıdır?",
+      "answer1": "A) Pulp Fiction",
+      "answer2": "B) Kill Bill",
+      "answer3": "C) Reservoir Dogs",
+      "answer4": "D) Django Unchained (Özgür Django)",
+      "correct": "A) Pulp Fiction"
+    }
+  ]
+}

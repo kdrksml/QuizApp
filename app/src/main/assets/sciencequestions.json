@@ -1,0 +1,84 @@
+{
+  "sciencequestions": [
+    {
+      "question": "Evrenin başlangıcına ilişkin kabul edilen teori hangisidir?",
+      "answer1": "A) Büyük Patlama Teorisi",
+      "answer2": "B) Kuantum Mekaniği",
+      "answer3": "C) Görelilik Kuramı",
+      "answer4": "D) Evrim Teorisi",
+      "correct": "A) Büyük Patlama Teorisi"
+    },
+    {
+      "question": "DNA molekülünü keşfeden bilim insanları hangileridir?",
+      "answer1": "A) James Watson ve Francis Crick",
+      "answer2": "B) Albert Einstein ve Isaac Newton",
+      "answer3": "C) Marie Curie ve Rosalind Franklin",
+      "answer4": "D) Charles Darwin ve Gregor Mendel",
+      "correct": "A) James Watson ve Francis Crick"
+    },
+    {
+      "question": "Yerçekimi kuvvetini keşfeden bilim insanı kimdir?",
+      "answer1": "A) Galileo Galilei",
+      "answer2": "B) Isaac Newton",
+      "answer3": "C) Nikola Tesla",
+      "answer4": "D) Albert Einstein",
+      "correct": "B) Isaac Newton"
+    },
+    {
+      "question": "DNA'nın yapısını açıklayan model hangisidir?",
+      "answer1": "A) İyon Kanal Modeli",
+      "answer2": "B) Dalton Modeli",
+      "answer3": "C) Çift Sarmal Modeli",
+      "answer4": "D) Çekirdek Kabuk Modeli",
+      "correct": "C) Çift Sarmal Modeli"
+    },
+    {
+      "question": "Atom altı parçacıklardan oluşan en hafif element hangisidir?",
+      "answer1": "A) Hidrojen",
+      "answer2": "B) Oksijen",
+      "answer3": "C) Karbon",
+      "answer4": "D) Azot",
+      "correct": "A) Hidrojen"
+    },
+    {
+      "question": "Mendel, hangi bilim dalının kurucusu olarak kabul edilir?",
+      "answer1": "A) Evrim Biyolojisi",
+      "answer2": "B) Genetik",
+      "answer3": "C) Fizik",
+      "answer4": "D) Kimya",
+      "correct": "B) Genetik"
+    },
+    {
+      "question": "İlk defa bir insanın Ay'a ayak basmasını sağlayan uzay aracı hangisidir?",
+      "answer1": "A) Apollo 11",
+      "answer2": "B) Voyager 1",
+      "answer3": "C) Sputnik 1",
+      "answer4": "D) Hubble Uzay Teleskobu",
+      "correct": "A) Apollo 11"
+    },
+    {
+      "question": "Fotosentez işlemi hangi enerji kaynağını kullanarak gerçekleşir?",
+      "answer1": "A) Rüzgar Enerjisi",
+      "answer2": "B) Güneş Enerjisi",
+      "answer3": "C) Nükleer Enerji",
+      "answer4": "D) Hidrolik Enerji",
+      "correct": "B) Güneş Enerjisi"
+    },
+    {
+      "question": "DNA zincirindeki baz çiftlerinden hangileri birbirine bağlanır?",
+      "answer1": "A) Adenin ve Guanin",
+      "answer2": "B) Adenin ve Sitozin",
+      "answer3": "C) Guanin ve Sitozin",
+      "answer4": "D) Timin ve Sitozin",
+      "correct": "C) Guanin ve Sitozin"
+    },
+    {
+      "question": "İnsan vücudunda en fazla bulunan element hangisidir?",
+      "answer1": "A) Kalsiyum",
+      "answer2": "B) Demir",
+      "answer3": "C) Oksijen",
+      "answer4": "D) Karbon",
+      "correct": "C) Oksijen"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "literaturequestions": [
+    {
+      "question": "William Shakespeare hangi oyunuyla ünlüdür?",
+      "answer1": "A) Hamlet",
+      "answer2": "B) Romeo ve Juliet",
+      "answer3": "C) Macbeth",
+      "answer4": "D) Othello",
+      "correct": "B) Romeo ve Juliet"
+    },
+    {
+      "question": "Franz Kafka'nın ünlü eseri hangisidir?",
+      "answer1": "A) Dava",
+      "answer2": "B) Suç ve Ceza",
+      "answer3": "C) Anna Karenina",
+      "answer4": "D) Don Kişot",
+      "correct": "A) Dava"
+    },
+    {
+      "question": "George Orwell'in distopya türündeki ünlü romanı hangisidir?",
+      "answer1": "A) Bin Dokuz Yüz Seksen Dört",
+      "answer2": "B) Cesur Yeni Dünya",
+      "answer3": "C) Fahrenheit 451",
+      "answer4": "D) 1984",
+      "correct": "D) 1984"
+    },
+    {
+      "question": "Victor Hugo'nun ünlü romanı hangisidir?",
+      "answer1": "A) Notre-Dame'ın Kamburu",
+      "answer2": "B) Sefiller",
+      "answer3": "C) Bülbülü Öldürmek",
+      "answer4": "D) Suç ve Ceza",
+      "correct": "B) Sefiller"
+    },
+    {
+      "question": "Fyodor Dostoyevski'nin ünlü romanı hangisidir?",
+      "answer1": "A) Suç ve Ceza",
+      "answer2": "B) Anna Karenina",
+      "answer3": "C) Don Kişot",
+      "answer4": "D) Madam Bovary",
+      "correct": "A) Suç ve Ceza"
+    },
+    {
+      "question": "İngiliz yazar J.R.R. Tolkien'in ünlü fantastik roman serisi hangisidir?",
+      "answer1": "A) Harry Potter",
+      "answer2": "B) Yüzüklerin Efendisi",
+      "answer3": "C) Hobbit",
+      "answer4": "D) Narnia Günlükleri",
+      "correct": "B) Yüzüklerin Efendisi"
+    },
+    {
+      "question": "Albert Camus'nün hangi romanıyla Nobel Edebiyat Ödülü'nü kazanmıştır?",
+      "answer1": "A) Yabancı",
+      "answer2": "B) Mutlu Ölüm",
+      "answer3": "C) Gün Doğmadan",
+      "answer4": "D) Veba",
+      "correct": "D) Veba"
+    },
+    {
+      "question": "Jane Austen'in hangi romanı en tanınmış eserlerinden biridir?",
+      "answer1": "A) Güliver'in Gezileri",
+      "answer2": "B) St. Petersburg Öyküleri",
+      "answer3": "C) Kibir ve Önyargı",
+      "answer4": "D) Jane Eyre",
+      "correct": "C) Kibir ve Önyargı"
+    },
+    {
+      "question": "Gabriel Garcia Marquez'in hangi romanı büyülü gerçekçilik akımının örneklerinden biridir?",
+      "answer1": "A) Yüzyıllık Yalnızlık",
+      "answer2": "B) Bin Muhteşem Güneş",
+      "answer3": "C) Ulysses",
+      "answer4": "D) Bir Parmak Bal",
+      "correct": "A) Yüzyıllık Yalnızlık"
+    },
+    {
+      "question": "İngiliz yazar C.S. Lewis'in ünlü fantastik roman serisi hangisidir?",
+      "answer1": "A) Harry Potter",
+      "answer2": "B) Yüzüklerin Efendisi",
+      "answer3": "C) Hobbit",
+      "answer4": "D) Narnia Günlükleri",
+      "correct": "D) Narnia Günlükleri"
+    }
+  ]
+}
