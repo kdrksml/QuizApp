@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
@@ -16,6 +17,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 public class MainActivity extends AppCompatActivity {
 
     MaterialCardView geographycard, historycard,artcard,literaturecard,moviecard,sciencecard;
+
 
 
     @Override
