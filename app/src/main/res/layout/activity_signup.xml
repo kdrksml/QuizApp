@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_light_blue"
-    android:backgroundTint="@color/background">
+    android:backgroundTint="@color/soft_green">
 
     <ImageView
         android:id="@+id/signupLogoImageView"
+        android:src="@drawable/app"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
@@ -52,7 +53,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="40dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/gray"
         android:text="Kayıt Ol"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000" />

@@ -66,12 +66,12 @@ public class ProfileFragment extends Fragment {
                             emailTextView.setText(email);
 
                             // Set the scores for different categories in the TextViews
-                            scienceScoreTextView.setText("Science: " + String.valueOf(scienceScore));
-                            literatureScoreTextView.setText("Literature: " + String.valueOf(literatureScore));
-                            historyScoreTextView.setText("History: " + String.valueOf(historyScore));
-                            geographyScoreTextView.setText("Geography: " + String.valueOf(geographyScore));
-                            movieScoreTextView.setText("Movie: " + String.valueOf(movieScore));
-                            artScoreTextView.setText("Art: " + String.valueOf(artScore));
+                            scienceScoreTextView.setText("Bilim: " + String.valueOf(scienceScore));
+                            literatureScoreTextView.setText("Edebiyat: " + String.valueOf(literatureScore));
+                            historyScoreTextView.setText("Tarih: " + String.valueOf(historyScore));
+                            geographyScoreTextView.setText("Coğrafya: " + String.valueOf(geographyScore));
+                            movieScoreTextView.setText("Film: " + String.valueOf(movieScore));
+                            artScoreTextView.setText("Sanat: " + String.valueOf(artScore));
                         }
                     }
                 }
