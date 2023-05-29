@@ -255,7 +255,7 @@ public class ScienceQuiz extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton("Evet", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(ScienceQuiz.this, MainActivity.class));
+                startActivity(new Intent(ScienceQuiz.this, Homepage.class));
                 finish();
             }
         });

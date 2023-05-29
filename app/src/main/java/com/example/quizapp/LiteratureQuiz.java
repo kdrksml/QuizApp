@@ -257,7 +257,7 @@ public class LiteratureQuiz extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton("Evet", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(LiteratureQuiz.this, MainActivity.class));
+                startActivity(new Intent(LiteratureQuiz.this, Homepage.class));
                 finish();
             }
         });

@@ -257,7 +257,7 @@ public class MovieQuiz extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton("Evet", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(MovieQuiz.this, MainActivity.class));
+                startActivity(new Intent(MovieQuiz.this, Homepage.class));
                 finish();
             }
         });

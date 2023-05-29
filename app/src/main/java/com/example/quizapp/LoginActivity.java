@@ -1,5 +1,7 @@
 package com.example.quizapp;
 
+
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,19 +10,27 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText usernameEditText, passwordEditText;
     private Button loginButton;
     private TextView signupTextView;
+    private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        mAuth = FirebaseAuth.getInstance();
         signupTextView = findViewById(R.id.signupTextView);
         signupTextView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,27 +48,35 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String username = usernameEditText.getText().toString();
-                String password = passwordEditText.getText().toString();
+                String email = usernameEditText.getText().toString().trim();
+                String password = passwordEditText.getText().toString().trim();
 
-                if (isValidCredentials(username, password)) {
-                    // Kullanıcı girişi başarılı, MainActivity'e geçiş yap
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(intent);
-                    finish(); // LoginActivity'yi kapat
-                } else {
-                    // Kullanıcı girişi başarısız, hata mesajı göster
-                    Toast.makeText(LoginActivity.this, "Geçersiz Kullanıcı Adı veya Parola", Toast.LENGTH_SHORT).show();
+                if (email.isEmpty()) {
+                    usernameEditText.setError("Please enter your email");
+                    return;
                 }
+
+                if (password.isEmpty()) {
+                    passwordEditText.setError("Please enter your password");
+                    return;
+                }
+
+                mAuth.signInWithEmailAndPassword(email, password)
+                        .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    FirebaseUser user = mAuth.getCurrentUser();
+                                    Intent intent = new Intent(LoginActivity.this, Homepage.class);
+                                    startActivity(intent);
+                                    finish();
+                                } else {
+                                    Toast.makeText(LoginActivity.this, "Authentication failed.",
+                                            Toast.LENGTH_SHORT).show();
+                                }
+                            }
+                        });
             }
         });
-    }
-
-    private boolean isValidCredentials(String username, String password) {
-        // Kullanıcı adı ve parola doğrulaması burada yapılır
-        // Doğrulama başarılıysa true döndür, aksi halde false döndür
-
-        // Örnek doğrulama: Kullanıcı adı "admin", parola "password" ise başarılı kabul edelim
-        return username.equals("admin") && password.equals("admin5344");
     }
 }

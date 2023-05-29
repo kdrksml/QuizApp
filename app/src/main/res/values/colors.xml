@@ -24,4 +24,5 @@
     <color name="orange">#FF9800</color> <!-- Orange color -->
     <color name="gray">#9E9E9E</color> <!-- Gray color -->
     <color name="brown">#795548</color> <!-- Brown color -->
+    <color name="lavender">#8692f7</color>
 </resources>

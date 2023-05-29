@@ -257,7 +257,7 @@ public class ArtQuiz extends AppCompatActivity {
         materialAlertDialogBuilder.setPositiveButton("Evet", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                startActivity(new Intent(ArtQuiz.this, MainActivity.class));
+                startActivity(new Intent(ArtQuiz.this, Homepage.class));
                 finish();
             }
         });

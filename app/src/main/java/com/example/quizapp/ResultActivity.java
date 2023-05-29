@@ -53,7 +53,7 @@ public class ResultActivity extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ResultActivity.this, MainActivity.class));
+                startActivity(new Intent(ResultActivity.this, Homepage.class));
                 finish();
             }
         });
@@ -61,7 +61,7 @@ public class ResultActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(ResultActivity.this, MainActivity.class));
+        startActivity(new Intent(ResultActivity.this, Homepage.class));
         finish();
     }
 }
