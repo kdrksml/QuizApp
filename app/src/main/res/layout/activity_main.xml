@@ -73,16 +73,16 @@
                             android:layout_height="64dp"/>
 
                         <TextView
-                            android:textStyle="bold"
-                            android:textColor="#FFFFFF"
-                            android:textSize="20sp"
-                            android:text="Coğrafya"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:shadowColor="#000000"
                             android:shadowDx="2"
                             android:shadowDy="2"
-                            android:shadowRadius="2" />
+                            android:shadowRadius="2"
+                            android:text="Coğrafya"
+                            android:textColor="#FFFFFF"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>

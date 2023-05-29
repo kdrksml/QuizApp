@@ -17,21 +17,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Category"
+                android:text="Kategori"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Username"
+                android:text="Kullanıcı Adı"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Highest Score"
+                android:text="En Yüksek Puan"
                 android:textStyle="bold" />
 
         </TableRow>
@@ -42,7 +42,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Science" />
+                android:text="Bilim" />
 
             <TextView
                 android:id="@+id/scienceUsername"
@@ -64,7 +64,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Literature" />
+                android:text="Edebiyat" />
 
             <TextView
                 android:id="@+id/literatureUsername"
@@ -86,7 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Art" />
+                android:text="Resim" />
 
             <TextView
                 android:id="@+id/artUsername"
@@ -108,7 +108,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Movie" />
+                android:text="Film" />
 
             <TextView
                 android:id="@+id/movieUsername"
@@ -130,7 +130,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Geography" />
+                android:text="Coğrafya" />
 
             <TextView
                 android:id="@+id/geographyUsername"
@@ -152,7 +152,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="History" />
+                android:text="Tarih" />
 
             <TextView
                 android:id="@+id/historyUsername"
