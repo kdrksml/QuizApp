@@ -1,14 +1,12 @@
 package com.example.quizapp;
 
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -19,12 +17,6 @@ import com.google.firebase.database.ValueEventListener;
 
 public class ProfileFragment extends Fragment {
 
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    private String mParam1;
-    private String mParam2;
-
     private TextView usernameTextView;
     private TextView emailTextView;
     private TextView scienceScoreTextView;
@@ -34,32 +26,9 @@ public class ProfileFragment extends Fragment {
     private TextView movieScoreTextView;
     private TextView artScoreTextView;
 
-    public ProfileFragment() {
-        // Required empty public constructor
-    }
-
-    public static ProfileFragment newInstance(String param1, String param2) {
-        ProfileFragment fragment = new ProfileFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
         // Initialize TextViews
@@ -82,26 +51,28 @@ public class ProfileFragment extends Fragment {
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     if (dataSnapshot.exists()) {
                         UserProfile userProfile = dataSnapshot.getValue(UserProfile.class);
-                        String username = userProfile.getUsername();
-                        String email = userProfile.getEmail();
-                        int scienceScore = userProfile.getScienceHighestScore();
-                        int literatureScore = userProfile.getLiteratureHighestScore();
-                        int historyScore = userProfile.getHistoryHighestScore();
-                        int geographyScore = userProfile.getGeographyHighestScore();
-                        int movieScore = userProfile.getMovieHighestScore();
-                        int artScore = userProfile.getArtHighestScore();
+                        if (userProfile != null) {
+                            String username = userProfile.getUsername();
+                            String email = userProfile.getEmail();
+                            int scienceScore = userProfile.getScienceHighestScore();
+                            int literatureScore = userProfile.getLiteratureHighestScore();
+                            int historyScore = userProfile.getHistoryHighestScore();
+                            int geographyScore = userProfile.getGeographyHighestScore();
+                            int movieScore = userProfile.getMovieHighestScore();
+                            int artScore = userProfile.getArtHighestScore();
 
-                        // Set the username and email values in the TextViews
-                        usernameTextView.setText(username);
-                        emailTextView.setText(email);
+                            // Set the username and email values in the TextViews
+                            usernameTextView.setText(username);
+                            emailTextView.setText(email);
 
-                        // Set the scores for different categories in the TextViews
-                        scienceScoreTextView.setText("Science: " + String.valueOf(scienceScore));
-                        literatureScoreTextView.setText("Literature: " + String.valueOf(literatureScore));
-                        historyScoreTextView.setText("History: " + String.valueOf(historyScore));
-                        geographyScoreTextView.setText("Geography: " + String.valueOf(geographyScore));
-                        movieScoreTextView.setText("Movie: " + String.valueOf(movieScore));
-                        artScoreTextView.setText("Art: " + String.valueOf(artScore));
+                            // Set the scores for different categories in the TextViews
+                            scienceScoreTextView.setText("Science: " + String.valueOf(scienceScore));
+                            literatureScoreTextView.setText("Literature: " + String.valueOf(literatureScore));
+                            historyScoreTextView.setText("History: " + String.valueOf(historyScore));
+                            geographyScoreTextView.setText("Geography: " + String.valueOf(geographyScore));
+                            movieScoreTextView.setText("Movie: " + String.valueOf(movieScore));
+                            artScoreTextView.setText("Art: " + String.valueOf(artScore));
+                        }
                     }
                 }
 
@@ -115,4 +86,5 @@ public class ProfileFragment extends Fragment {
         return view;
     }
 }
+
 
