@@ -82,6 +82,8 @@ public class ScienceQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ScienceQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Science"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -116,6 +118,8 @@ public class ScienceQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ScienceQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Science"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -149,6 +153,8 @@ public class ScienceQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ScienceQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Science"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -183,6 +189,8 @@ public class ScienceQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ScienceQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Science"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);

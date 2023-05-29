@@ -1,64 +1,76 @@
 package com.example.quizapp;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link LibraryFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
 public class LibraryFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public LibraryFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment LibraryFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static LibraryFragment newInstance(String param1, String param2) {
-        LibraryFragment fragment = new LibraryFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    private TableLayout scoreTable;
+    private DatabaseReference scoresRef;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_library, container, false);
+        scoreTable = view.findViewById(R.id.scoreTable);
+
+        scoresRef = FirebaseDatabase.getInstance().getReference("scores");
+
+        displayScoreTable();
+
+        return view;
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_library, container, false);
+    private void displayScoreTable() {
+        // Retrieve scores for each category
+        retrieveScoresForCategory("Science", R.id.scienceUsername, R.id.scienceHighestScore);
+        retrieveScoresForCategory("Literature", R.id.literatureUsername, R.id.literatureHighestScore);
+        retrieveScoresForCategory("Art", R.id.artUsername, R.id.artHighestScore);
+        retrieveScoresForCategory("Movie", R.id.movieUsername, R.id.movieHighestScore);
+        retrieveScoresForCategory("Geography", R.id.geographyUsername, R.id.geographyHighestScore);
+        retrieveScoresForCategory("History", R.id.historyUsername, R.id.historyHighestScore);
+    }
+
+    private void retrieveScoresForCategory(String category, int usernameTextViewId, int highestScoreTextViewId) {
+        Query query = scoresRef.child(category).orderByChild("highestScore").limitToLast(10);
+
+        query.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                    String username = dataSnapshot.child("username").getValue(String.class);
+                    int highestScore = dataSnapshot.child("highestScore").getValue(Integer.class);
+
+                    TextView usernameTextView = getView().findViewById(usernameTextViewId);
+                    TextView highestScoreTextView = getView().findViewById(highestScoreTextViewId);
+
+                    if (usernameTextView != null && highestScoreTextView != null) {
+                        usernameTextView.setText(username);
+                        highestScoreTextView.setText(String.valueOf(highestScore));
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // Handle database error
+            }
+        });
     }
 }
+

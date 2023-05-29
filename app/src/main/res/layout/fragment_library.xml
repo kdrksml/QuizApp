@@ -1,15 +1,210 @@
-<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lavender"
     tools:context=".LibraryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Library"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white" />
+
+    <!-- Score Table -->
+    <TableLayout
+        android:id="@+id/scoreTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Header Row -->
+        <TableRow>
+
+            <!-- Category Column -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Category"
+                android:textStyle="bold" />
+
+            <!-- Username Column -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Username"
+                android:textStyle="bold" />
+
+            <!-- Highest Score Column -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Highest Score"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- Science Row -->
+        <TableRow>
+
+            <!-- Science TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Science" />
+
+            <!-- Science Username TextView -->
+            <TextView
+                android:id="@+id/scienceUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Science Highest Score TextView -->
+            <TextView
+                android:id="@+id/scienceHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- Literature Row -->
+        <TableRow>
+
+            <!-- Literature TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Literature" />
+
+            <!-- Literature Username TextView -->
+            <TextView
+                android:id="@+id/literatureUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Literature Highest Score TextView -->
+            <TextView
+                android:id="@+id/literatureHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- Art Row -->
+        <TableRow>
+
+            <!-- Art TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Art" />
+
+            <!-- Art Username TextView -->
+            <TextView
+                android:id="@+id/artUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Art Highest Score TextView -->
+            <TextView
+                android:id="@+id/artHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- Movie Row -->
+        <TableRow>
+
+            <!-- Movie TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Movie" />
+
+            <!-- Movie Username TextView -->
+            <TextView
+                android:id="@+id/movieUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Movie Highest Score TextView -->
+            <TextView
+                android:id="@+id/movieHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- Geography Row -->
+        <TableRow>
+
+            <!-- Geography TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Geography" />
+
+            <!-- Geography Username TextView -->
+            <TextView
+                android:id="@+id/geographyUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Geography Highest Score TextView -->
+            <TextView
+                android:id="@+id/geographyHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <!-- History Row -->
+        <TableRow>
+
+            <!-- History TextView -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="History" />
+
+            <!-- History Username TextView -->
+            <TextView
+                android:id="@+id/historyUsername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- History Highest Score TextView -->
+            <TextView
+                android:id="@+id/historyHighestScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+    </TableLayout>
 
 </FrameLayout>
+

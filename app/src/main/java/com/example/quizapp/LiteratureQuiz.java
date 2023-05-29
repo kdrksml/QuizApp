@@ -82,6 +82,8 @@ public class LiteratureQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(LiteratureQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Literature"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -116,6 +118,8 @@ public class LiteratureQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(LiteratureQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Literature"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -149,6 +153,8 @@ public class LiteratureQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(LiteratureQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Literature"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -183,6 +189,8 @@ public class LiteratureQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(LiteratureQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Literature"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);

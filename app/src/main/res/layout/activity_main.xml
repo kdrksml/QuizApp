@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/gradient_light_blue"
     tools:context=".MainActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarLayout"
-        app:statusBarForeground="@color/background"
-        android:background="@color/teal_700"
+        app:statusBarForeground="@drawable/gradient_light_blue"
+        android:background="@drawable/gradient_light_blue"
         android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -17,7 +17,7 @@
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:elevation="0dp"
-            android:background="@color/purple_200"
+            android:background="@drawable/gradient_light_blue"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:gravity="center">

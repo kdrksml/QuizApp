@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
 public class SignupActivity extends AppCompatActivity {
 
     private EditText usernameEditText;
@@ -51,19 +52,31 @@ public class SignupActivity extends AppCompatActivity {
 
         // Perform input validations
         if (TextUtils.isEmpty(username)) {
-            usernameEditText.setError("Username is required");
+            usernameEditText.setError("Kullanıcı adı gereklidir");
             usernameEditText.requestFocus();
             return;
         }
 
         if (TextUtils.isEmpty(email)) {
-            emailEditText.setError("Email is required");
+            emailEditText.setError("E-posta adresi gereklidir");
+            emailEditText.requestFocus();
+            return;
+        }
+
+        if (!isValidEmail(email)) {
+            emailEditText.setError("Geçerli bir e-posta adresi girin");
             emailEditText.requestFocus();
             return;
         }
 
         if (TextUtils.isEmpty(password)) {
-            passwordEditText.setError("Password is required");
+            passwordEditText.setError("Şifre gereklidir");
+            passwordEditText.requestFocus();
+            return;
+        }
+
+        if (password.length() < 6) {
+            passwordEditText.setError("Şifre en az 6 karakter olmalıdır");
             passwordEditText.requestFocus();
             return;
         }
@@ -75,7 +88,7 @@ public class SignupActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign up success, update UI with the signed-in user's information
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Toast.makeText(SignupActivity.this, "Sign up successful!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignupActivity.this, "Kaydolma başarılı!", Toast.LENGTH_SHORT).show();
 
                             // Start LoginActivity
                             Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
@@ -86,9 +99,9 @@ public class SignupActivity extends AppCompatActivity {
                             String errorMessage = task.getException().getMessage();
 
                             if (errorMessage.contains("email address is already in use")) {
-                                Toast.makeText(SignupActivity.this, "This email address is already registered.", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignupActivity.this, "Bu e-posta adresi zaten kayıtlı.", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(SignupActivity.this, "Sign up failed: " + errorMessage, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignupActivity.this, "Kaydolma başarısız oldu: " + errorMessage, Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
@@ -101,3 +114,4 @@ public class SignupActivity extends AppCompatActivity {
         return email.matches(emailRegex);
     }
 }
+

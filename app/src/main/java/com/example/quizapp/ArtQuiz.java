@@ -82,6 +82,8 @@ public class ArtQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ArtQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Art"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -116,6 +118,8 @@ public class ArtQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ArtQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Art"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -149,6 +153,8 @@ public class ArtQuiz extends AppCompatActivity {
                     }, 500);
                 } else {
                     Intent intent = new Intent(ArtQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Art"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
@@ -182,11 +188,15 @@ public class ArtQuiz extends AppCompatActivity {
                         }
                     }, 500);
                 } else {
+
                     Intent intent = new Intent(ArtQuiz.this, ResultActivity.class);
+                    intent.putExtra("category", "Art"); // Replace "Art" with the corresponding category name
+                    intent.putExtra("score", correct); // Pass the score achieved in this category
                     intent.putExtra("correct", correct);
                     intent.putExtra("wrong", wrong);
                     startActivity(intent);
                     finish();
+
                 }
             }
         });
