@@ -7,21 +7,27 @@ Genel Kültür Bilgi Yarışması, Coğrafya, Tarih, Sanat, Film, Bilim ve Edebi
 İşte oyundan birkaç ekran görüntüsü:
 
 1. Giriş Sayfası 
+
    ![Giriş Sayfası](/screenshots/login.png)
 
 2. Kategorilerin yer aldığı ana sayfa 
+
    ![Ana Sayfa](/screenshots/mainpage.png)
 
 3. Test arayüzü
+
    ![Test](/screenshots/test.png)
 
 4. Sonuç Ekranı
+
    ![Sonuç Sayfası](/screenshots/result.png)
 
 5. Profil Ekranı
+
    ![Profil Sayfası](/screenshots/profile.png)
 
 6. Skor Tablosu
+
    ![Skor Tablosu](/screenshots/scoretable.png)
 
 ## Video
