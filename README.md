@@ -28,7 +28,7 @@ Genel Kültür Bilgi Yarışması, Coğrafya, Tarih, Sanat, Film, Bilim ve Edebi
 
 Genel Kültür Bilgi Yarışması'nı tanıtan 20 saniyelik kısa bir video aşağıda yer almaktadır:
 
-[![Genel Kültür Bilgi Yarışması Demo](https://drive.google.com/file/d/1upz-hzTjU9WSg0l39ziBGBGPnb43-aew/view?usp=share_link)
+[![Genel Kültür Bilgi Yarışması Demo](/screenshots/mainpage.png)](https://drive.google.com/file/d/1upz-hzTjU9WSg0l39ziBGBGPnb43-aew/view?usp=share_link)
 
 Videoyu izlemek için yukarıdaki resme tıklayın.
 
