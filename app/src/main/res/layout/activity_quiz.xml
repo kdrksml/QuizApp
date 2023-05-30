@@ -13,7 +13,7 @@
         android:elevation="0dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:background="@color/soft_green"
+        android:background="@drawable/gradient_light_blue"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
         <com.google.android.material.appbar.MaterialToolbar

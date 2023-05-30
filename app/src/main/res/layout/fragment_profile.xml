@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_green"
+    android:background="@drawable/gradient_light_blue"
     tools:context=".ProfileFragment">
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kullanıcı Adı"
-            android:textSize="24sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:gravity="center_horizontal"
@@ -36,80 +36,80 @@
             android:layout_height="wrap_content"
             android:text="user@example.com"
             android:layout_marginBottom="50dp"
-            android:textSize="17sp"
+            android:textSize="20sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/brown"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="En Yüksek Puanlar"
-            android:textSize="24sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:layout_marginTop="24dp"/>
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="16dp"/>
 
         <TextView
             android:id="@+id/scienceScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bilim: "
-            android:textSize="18sp"
+            android:textSize="21sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/literatureScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Edebiyat: "
-            android:textSize="18sp"
+            android:textSize="21sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/historyScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tarih: "
-            android:textSize="18sp"
+            android:textSize="21sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/geographyScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Coğrafya: "
-            android:textSize="18sp"
+            android:textSize="21sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/movieScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Film: "
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/artScoreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sanat: "
-            android:textSize="18sp"
+            android:textSize="21sp"
             android:gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:textColor="@color/gray"/>
+            android:textColor="@color/orange"/>
 
     </LinearLayout>
 

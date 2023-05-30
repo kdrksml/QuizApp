@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_green"
+    android:background="@drawable/gradient_light_blue"
     tools:context=".LibraryFragment">
 
     <TableLayout
@@ -11,164 +11,220 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-        <TableRow>
+        <!-- Header Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Kategori"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#F44336"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Kullanıcı Adı"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#F44336"
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="En Yüksek Puan"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#F44336"
+                android:textSize="24sp" />
 
         </TableRow>
 
-        <TableRow>
+        <!-- Science Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Bilim" />
+                android:text="Bilim"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/scienceUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/scienceHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
-        <TableRow>
+        <!-- Literature Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Edebiyat" />
+                android:text="Edebiyat"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/literatureUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/literatureHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
-        <TableRow>
+        <!-- Art Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sanat" />
+                android:text="Sanat"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/artUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/artHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
-        <TableRow>
+        <!-- Movie Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Film" />
+                android:text="Film"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/movieUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/movieHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
-        <TableRow>
+        <!-- Geography Row -->
+        <TableRow
+            android:layout_marginBottom="12dp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Coğrafya" />
+                android:text="Coğrafya"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/geographyUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/geographyHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
+        <!-- History Row -->
         <TableRow>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tarih" />
+                android:text="Tarih"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/historyUsername"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/historyHighestScore"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="24sp" />
 
         </TableRow>
 
     </TableLayout>
 
 </FrameLayout>
+
 
